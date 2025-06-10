@@ -1,10 +1,11 @@
 'use client';
 import React from 'react'
 import AddToCart from './AddToCart';
-
+import  Styles   from '.ProductCard.module.css';
+// Styles.Card
 const ProductCard = () => {
   return (
-    <div>
+    <div className={Styles.Card}>
       <AddToCart/>
     </div>
   )
